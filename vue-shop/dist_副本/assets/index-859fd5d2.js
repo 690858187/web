@@ -1,1 +1,0 @@
-import{_ as a,b as o,o as s,x as n,w as r,c,v as _,F as l,m as d,t as p}from"./index-812eb3fc.js";const i={};function m(u,x){const t=o("el-scrollbar");return s(),n(t,null,{default:r(()=>[(s(),c(l,null,_(20,e=>d("p",{key:e,class:"scrollbar-demo-item"},p(e),1)),64))]),_:1})}const v=a(i,[["render",m],["__scopeId","data-v-68135e04"]]);export{v as default};

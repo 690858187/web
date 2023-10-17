@@ -1,5 +1,5 @@
 {
-  "name": "vue-shop",
+  "name": "vuewww",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -16,7 +16,9 @@
     "preinstall": "node ./scripts/preinstall.js",
     "build:test": "vue-tsc && vite build --mode test",
     "build:pro": "vue-tsc && vite build --mode production",
-    "commit": "git add . && git-cz"
+    "commit": "git add . && git-cz",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist -r git@github.com:690858187/web.git -b gh-pages"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",

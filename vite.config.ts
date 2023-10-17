@@ -15,7 +15,7 @@ export default defineConfig(({ command, mode }) => {
   let env = loadEnv(mode, process.cwd());
   return {
     /// github上项目名称
-    pubilcPath: '/web/',
+    pubilcPath: '.',
     server: {
       proxy: {
         [env.VITE_APP_BASE_API]: {
